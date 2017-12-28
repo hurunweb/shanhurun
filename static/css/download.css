@@ -1,0 +1,130 @@
+@media (min-width: 770px) {
+    #appleapp{
+        left: 50px;
+        position: absolute;
+        bottom: 30px;
+    }
+    #androidapp{
+        position: absolute;
+        bottom: 30px;
+        left: 305px;
+    }
+    body{
+
+        background: url(../img/downloadbg.jpg) no-repeat fixed top;
+    }
+    #mob{
+        /*height: 100%;*/
+        width: 449px;
+        position: relative;
+        float: left;
+        top: 200px;
+        left: 20%;
+    }
+
+    #mob img{
+        /*max-width: 422px;*/
+        /*max-height: 652px;*/
+        position: relative;
+        /*float: left;*/
+        /*top: 10px;*/
+        /*left: 10px;*/
+    }
+    #download{
+        /*width: 50%;*/
+        height: 489px;
+        width: 514px;
+        float: left;
+        position: relative;
+        /*float: left;*/
+        top: 230px;
+        left: 20%;
+    }
+    #applebtn{
+        width: 220px;
+        height: 250px;
+        position: absolute;
+
+        left: 28px;
+        top: 225px;
+        z-index: 10;
+    }
+    #androidbtn{
+        width: 220px;
+        height: 250px;
+        position: absolute;
+
+        left: 280px;
+        top: 225px;
+        z-index: 10;
+    }
+}
+@media (max-width: 770px) {
+    #appleapp{
+        left: 25px;
+        position: absolute;
+        bottom: 9px;
+    }
+    #androidapp{
+        position: absolute;
+        bottom: 9px;
+        left: 150px;
+    }
+    body{
+
+        background: url(../img/downloadbg.jpg) no-repeat fixed top;
+    }
+    #mob{
+        height: 332px;
+        width: 224px;
+        position: relative;
+        float: left;
+        top: 200px;
+        left: 20%;
+    }
+
+    #mob img{
+        /*max-width: 422px;*/
+        /*max-height: 652px;*/
+        position: relative;
+        width: 100%;
+        /*float: left;*/
+        /*top: 10px;*/
+        /*left: 10px;*/
+    }
+    #download{
+        /*width: 50%;*/
+        height: 244px;
+        width: 257px;
+        float: left;
+        position: relative;
+        /*float: left;*/
+        top: 230px;
+        left: 20%;
+    }
+    #download img{
+        position: relative;
+        width: 100%;
+    }
+    #applebtn{
+        width: 110px;
+        height: 125px;
+        position: absolute;
+        left: 13px;
+        top: 113px;
+        z-index: 10;
+    }
+    canvas{
+        width:90px;
+        height: 90px;
+    }
+    #androidbtn{
+        width: 110px;
+        height: 125px;
+        position: absolute;
+
+        left: 140px;
+        top: 113px;
+        z-index: 10;
+    }
+}
